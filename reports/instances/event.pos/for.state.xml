@@ -1,0 +1,29 @@
+Searching 191 files for "STATE">for<" (regex)
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0575.tml:
+   50:    <s><ENAMEX TYPE="ORGANIZATION">Ticketron</ENAMEX>'s automated wagering business, which operates lotteries in a half dozen states, is not  <EVENT eid="e2439" class="STATE">for</EVENT> sale, the company <EVENT eid="e100" class="REPORTING">said</EVENT>.</s> 
+
+   <MAKEINSTANCE eventID="e2439" eiid="ei2749" tense="PRESENT" aspect="NONE" polarity="NEG" pos="PREPOSITION"/>
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0583.tml:
+ 
+   33: <s>"If you <EVENT eid="e246" class="OCCURRENCE">find</EVENT> sound, healthy companies in <ENAMEX TYPE="LOCATION">Japan</ENAMEX>, they are not  <EVENT eid="e247" class="STATE">for</EVENT> sale," <EVENT eid="e43" class="REPORTING">said</EVENT> <ENAMEX TYPE="PERSON">George Watanabe</ENAMEX>, a management-consultant at <ENAMEX TYPE="LOCATION">Tokyo</ENAMEX>-based <ENAMEX TYPE="ORGANIZATION">Asia Advisory Services Inc.</ENAMEX> 
+ 
+   <MAKEINSTANCE eventID="e247" eiid="ei2079" tense="PRESENT" aspect="NONE" polarity="NEG" pos="PREPOSITION"/>
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0661.tml:
+
+   32: <s><ENAMEX TYPE="ORGANIZATION">Dataproducts</ENAMEX> has <SIGNAL sid="s87">since</SIGNAL> <EVENT eid="e64" class="ASPECTUAL">started</EVENT> a <EVENT eid="e88" class="OCCURRENCE">restructuring</EVENT>, and has <EVENT eid="e65" class="REPORTING">said</EVENT> it is not  <EVENT eid="e90" class="STATE">for</EVENT> sale.</s> 
+   33  
+<MAKEINSTANCE eventID="e90" eiid="ei2036" tense="PRESENT" aspect="NONE" polarity="NEG" pos="PREPOSITION"/>
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0938.tml:
+
+   35: <s>She <EVENT eid="e58" class="I_ACTION">declined</EVENT> to <EVENT eid="e60" class="OCCURRENCE">identify</EVENT> other bidders but <EVENT eid="e61" class="REPORTING">said</EVENT> Mr. <ENAMEX TYPE="ORGANIZATION">Drabinsky</ENAMEX>'s offer "is all cash, and it's <EVENT eid="e227" class="STATE">for</EVENT> all of the company."</s> 
+ 
+ <MAKEINSTANCE eventID="e227" eiid="ei864" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER"/>
+
+

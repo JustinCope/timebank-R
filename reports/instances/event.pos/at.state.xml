@@ -1,0 +1,42 @@
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0612.tml:
+  The debentures are convertible into common stock <EVENT eid="e101" class="STATE">at</EVENT> \$25 a share, representing a 24\% conversion premium over Thursday's closing price. 
+  <MAKEINSTANCE eventID="e101" eiid="ei2023" tense="NONE" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/VOA19980305.1800.2603.tml:
+  She says this <EVENT eid="e31" class="OCCURRENCE">puts</EVENT> the very existence of women's families <EVENT eid="e358" class="STATE">at</EVENT> risk.
+  <MAKEINSTANCE eventID="e358" eiid="ei496" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0568.tml:
+  Mr. Weil of Weil \& Associates said he will remain at \$1 a share for next year but said he wonders whether even that low target is <EVENT eid="e2794" class="STATE">at</EVENT> risk. 
+  <MAKEINSTANCE eventID="e2794" eiid="ei2942" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0585.tml:
+  Estimates from traders put it <EVENT eid="e1092" class="STATE">at</EVENT> less than 5\% of Nasdaq's average daily volume of roughly 133 million shares. 
+  258: <MAKEINSTANCE eventID="e1092" eiid="ei2137" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0584.tml:
+  But I don't think we're <EVENT eid="e2026" class="STATE">at</EVENT> that point yet.
+  <MAKEINSTANCE eventID="e2026" eiid="ei2704" tense="PRESENT" aspect="NONE" polarity="NEG" pos="PREPOSITION"/>
+
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/VOA19980305.1800.2603.tml:
+  Afghanistan has been <EVENT eid="e355" class="STATE">at</EVENT> war for twenty years, leaving a large part of the country's male population dead or in exile. The United Nations says women and children make up about seventy-five percent of the Afghan population. 
+  <MAKEINSTANCE eventID="e355" eiid="ei493" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" pos="OTHER"/>
+
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0816.tml:
+  In late New York trading the dollar was <EVENT eid="e136" class="STATE">at</EVENT> 1.8400 marks and 142.10 yen compared with 1.8353 marks and 141.52 yen Wednesday. 
+  <MAKEINSTANCE eventID="e136" eiid="ei543" tense="PAST" aspect="NONE" polarity="POS" pos="OTHER"/>
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/PRI19980205.2000.1998.tml:
+  Joblessness is now <EVENT eid="e51" class="STATE">at</EVENT> its highest level in Germany since the second world war.
+  <MAKEINSTANCE eventID="e51" eiid="ei2021" tense="PRESENT" aspect="NONE" polarity="POS" pos="OTHER"/>
+

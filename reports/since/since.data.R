@@ -1,0 +1,2 @@
+
+sinceIDs = extractIDfromAll(sinceLinks,"signalID")

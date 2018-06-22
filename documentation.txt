@@ -1,0 +1,11 @@
+
+cbind.fill
+cleanNode
+getDocument
+getDocuments
+getIndex
+linkListHostCompReport
+makeUnique
+makeAllDocsUnique
+UniqueXID
+wordForms

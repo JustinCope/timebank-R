@@ -1,0 +1,25 @@
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/CNN19980222.1130.0084.tml:
+  A UN spokesman says UN secretary general Kofi Annan is <EVENT eid="e142" class="STATE">on</EVENT> the verge of a breakthrough, but added it's not done yet.
+  <MAKEINSTANCE eventID="e142" eiid="ei174" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/WSJ910225-0066.tml:
+  According to 50: press pool reports, U.S. Marines are already <EVENT eid="e534" class="STATE">on</EVENT> the outskirts of Kuwait City.
+  <MAKEINSTANCE eventID="e534" eiid="ei1525" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0151.tml:
+  Mr. Edelman declined to specify what prompted the recent moves, saying they are meant only to benefit shareholders when "the company is <EVENT eid="e183" class="STATE">on</EVENT> a roll." 
+  <MAKEINSTANCE eventID="e183" eiid="ei335" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0158.tml:
+  ``If I  were choosing the people of tomorrow, I would  have chosen the people who are now <EVENT eid="e363" class="STATE">on</EVENT> the board,'' he said. 
+  <MAKEINSTANCE eventID="e363" eiid="ei554" tense="PRESENT" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+
+/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/SJMN91-06338157.tml:
+  ``He was told . . . the handwriting was <EVENT eid="e317" class="STATE">on</EVENT> the wall,'' the source said Monday.
+
+<MAKEINSTANCE eventID="e317" eiid="ei390" tense="PAST" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
+
+

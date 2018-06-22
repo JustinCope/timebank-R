@@ -1,0 +1,48 @@
+> instanceEventData[instanceEventData$pos=="ADJECTIVE" & instanceEventData$class=="REPORTING",]$eventID
+
+
+
+EIDtoEVENT("d139e123",docs)
+ToSentence(EIDtoEVENT("d139e123",docs))
+printSentence(ToSentence(EIDtoEVENT("d139e123",docs)))
+EIDtoEVENT("d31e40",docs)
+ToSentence(EIDtoEVENT("d31e40",docs))
+printSentence(ToSentence(EIDtoEVENT("d31e40",docs)))
+EIDtoEVENT("d55e22",docs)
+ToSentence(EIDtoEVENT("d55e22",docs))
+printSentence(ToSentence(EIDtoEVENT("d55e22",docs)))
+EIDtoEVENT("d5e19",docs)
+ToSentence(EIDtoEVENT("d5e19",docs))
+printSentence(ToSentence(EIDtoEVENT("d5e19",docs)))
+
+
+
+> EIDtoEVENT("d139e123",docs)
+<EVENT eid="d139e123" class="REPORTING" word_form="recalled">recalled</EVENT> 
+> ToSentence(EIDtoEVENT("d139e123",docs))
+<s>He <EVENT eid="d139e119" class="REPORTING" word_form="said">said</EVENT> <ENAMEX TYPE="ORGANIZATION">Jaguar</ENAMEX> "should n't be <EVENT eid="d139e120" class="OCCURRENCE" word_form="smothered">smothered</EVENT> by anyone else , " <EVENT eid="d139e123" class="REPORTING" word_form="recalled">recalled</EVENT> one participant.</s> 
+> printSentence(ToSentence(EIDtoEVENT("d139e123",docs)))
+[1] "He said Jaguar \"should n't be smothered by anyone else , \" recalled one participant."
+> EIDtoEVENT("d31e40",docs)
+<EVENT eid="d31e40" class="REPORTING" word_form="said">said</EVENT> 
+> ToSentence(EIDtoEVENT("d31e40",docs))
+<s>``I have n't <EVENT eid="d31e38" class="PERCEPTION" word_form="seen">seen</EVENT> a pattern yet ,  '' <EVENT eid="d31e40" class="REPORTING" word_form="said">said</EVENT> <ENAMEX TYPE="PERSON">Patricia Hurt</ENAMEX>, the <ENAMEX TYPE="LOCATION">Essex
+County</ENAMEX> prosecutor, who <EVENT eid="d31e41" class="OCCURRENCE" word_form="created">created</EVENT> the task force on <TIMEX3 tid="d31t61" type="DATE" value="1998-03-31" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d31t43" word_form="tuesday">Tuesday</TIMEX3>.</s> 
+> printSentence(ToSentence(EIDtoEVENT("d31e40",docs)))
+[1] "``I have n't seen a pattern yet , '' said Patricia Hurt, the Essex County prosecutor, who created the task force on Tuesday."
+> EIDtoEVENT("d55e22",docs)
+<EVENT eid="d55e22" class="REPORTING" word_form="announced">announced</EVENT> 
+> ToSentence(EIDtoEVENT("d55e22",docs))
+<s>The <EVENT eid="d55e10" class="OCCURRENCE" word_form="offer">offer</EVENT> is being <EVENT eid="d55e11" class="I_ACTION" word_form="launched">launched</EVENT> pursuant to a <TIMEX3 tid="d55t21" type="TIME" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d55t13" word_form="previously">previously</TIMEX3> <EVENT eid="d55e22" class="REPORTING" word_form="announced">announced</EVENT> <EVENT eid="d55e12" class="OCCURRENCE" word_form="agreement">agreement</EVENT> between the companies.</s> 
+> printSentence(ToSentence(EIDtoEVENT("d55e22",docs)))
+[1] "The offer is being launched pursuant to a previously announced agreement between the companies."
+> EIDtoEVENT("d5e19",docs)
+<EVENT eid="d5e19" class="REPORTING" word_form="said">
+  <VG>said</VG>
+</EVENT> 
+> ToSentence(EIDtoEVENT("d5e19",docs))
+<s><NG><HEAD><ENAMEX TYPE="PERSON">President Bush</ENAMEX></HEAD></NG><SIGNAL sid="d5s487" word_form="on"><PG>on</PG></SIGNAL><TIMEX3 tid="d5t22" type="DATE" value="1990-08-14" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d5t3" word_form="tuesday"><NG><TIMEX TYPE="DATE">Tuesday</TIMEX></NG></TIMEX3><EVENT eid="d5e19" class="REPORTING" word_form="said"><VG>said</VG></EVENT><NG>the <HEAD><ENAMEX TYPE="LOCATION">United States</ENAMEX></HEAD></NG><VG>may <EVENT eid="d5e23" class="OCCURRENCE" word_form="extend">extend</EVENT></VG><NG>its naval <EVENT eid="d5e26" class="OCCURRENCE" word_form="quarantine"><HEAD>quarantine</HEAD></EVENT></NG><PG>to</PG><NG><HEAD><ENAMEX TYPE="LOCATION">Jordan</ENAMEX></HEAD></NG>'s <NG><ENAMEX TYPE="LOCATION">Red
+Sea</ENAMEX><HEAD>port</HEAD></NG><PG>of</PG><NG><HEAD>Aqaba</HEAD></NG><VG-INF>to <EVENT eid="d5e27" class="OCCURRENCE" word_form="shut">shut</EVENT> off</VG-INF><NG><HEAD><ENAMEX TYPE="LOCATION">Iraq</ENAMEX></HEAD></NG>'s <NG>last unhindered trade <HEAD>route</HEAD></NG>.</s> 
+> printSentence(ToSentence(EIDtoEVENT("d5e19",docs)))
+[1] "President BushonTuesdaysaidthe United Statesmay extendits naval quarantinetoJordan's Red SeaportofAqabato shut offIraq's last unhindered trade route."
+> 

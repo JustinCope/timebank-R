@@ -1,0 +1,167 @@
+# > linkListHostCompReport(untilLinkIDList,untilData)
+
+Event*Event : Verb*Verb
+
+
+[1] 2
+[1] "FUTURE NONE POS VERB NA STATE stay"
+[1] "FUTURE NONE POS VERB NA ASPECTUAL ends"
+ABC quoted an Iraqi Foreign Ministry official in Baghdad as saying Americans in Iraq are ``restrictees '' who will stay there until the crisis ends.  (AP900815-0044)
+
+
+[1] 4
+[1] "FUTURE NONE POS VERB NA STATE remain"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE complies"
+A Pentagon spokesman said Thursday that the 38,000 U.S. troops in the Gulf will remain until Iraq complies with the U.N. Security Council agreement over weapons inspections.  (APW19980306.1001)
+
+[1] 6
+[1] "FUTURE NONE NEG VERB NA OCCURRENCE lift"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE certify"
+The Security Council has said it will not lift the sweeping sanctions imposed on Iraq after its 1990 invasion of Kuwait until the U.N. inspectors certify that Baghdad has eliminated its weapons of mass destruction.  (APW19980306.1001)
+
+[1] 8
+[1] "FUTURE NONE POS VERB NA I_ACTION direct"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE achieved"
+"'Mr. Stronach will direct an effort to reduce overhead and curb capital spending' until a more satisfactory level of profit is achieved and maintained,''Magna said."  (wsj\_0027)
+
+[1] 25
+[1] "FUTURE NONE NEG VERB NA OCCURRENCE made"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE approve"
+"Details of the restructuring won't be made final until regulators approve the regulations mandated by the new federal act, the company said."  (wsj\_1038)
+
+
+
+[1] 18
+[1] "NONE NONE NEG VERB would ASPECTUAL resume"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE warrant"
+"He said construction wouldn't resume until market conditions warrant it."  (wsj\_0610)
+
+
+
+[1] 3
+[1] "INFINITIVE NONE POS VERB NA OCCURRENCE isolate"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE retreats"
+The combined operations are designed to isolate and strangle Iraq until it retreats from Kuwait.  (AP900816-0139)
+
+[1] 7
+[1] "INFINITIVE NONE POS VERB NA OCCURRENCE keep"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE tilts"
+With potential inflation counterbalanced by worries about possible price declines, the Fed and its chairman, Alan Greenspan, have suggested that they intend to keep interest rates unchanged until the economy tilts clearly in one direction or another.  (NYT19980206.0460)
+
+[1] 16
+[1] "INFINITIVE NONE POS VERB NA OCCURRENCE take"
+[1] "PRESENT NONE POS VERB NA OCCURRENCE settles"
+"That's leaving small investors with cold feet, they said, and prompting institutions to take a reserved stance on the sidelines as well, at least until the market in New York settles down somewhat."  (wsj\_0586)
+
+[1] 21
+[1] "INFINITIVE NONE POS VERB NA OCCURRENCE keep"
+[1] "PRESENT NONE POS VERB NA ASPECTUAL expires"
+And powerful political pressures may convince the Conservative government to keep its so-called golden share, which limits any individual holding to 15\%, until the restriction expires on Dec. 31, 1990.  (wsj\_0745)
+
+[1] 24
+[1] "INFINITIVE NONE POS VERB NA STATE remain"
+[1] "PRESENT PERFECTIVE POS VERB NA OCCURRENCE sold"
+"Mr. Nadeau said he intends to remain Provigo's chief executive only until the non-food businesses are sold, after a which a new chief executive will be named."  (wsj\_1006)
+
+
+
+[1] 15
+[1] "PAST NONE NEG VERB NA STATE concerned"
+[1] "PAST NONE POS VERB NA OCCURRENCE became"
+"``We weren't as concerned until they became sell programs,''says Mr. DaPuzzo, who now thinks it adds unnecessary volatility."  (wsj\_0585)
+
+
+
+
+
+Event*Event  Verb*Noun
+
+[1] 23
+[1] "FUTURE NONE POS VERB NA ASPECTUAL continue"
+[1] "NONE NONE POS NOUN NA OCCURRENCE offer"
+"The directors added that the two executives haven't reached a final decision to proceed with a bid and that until an offer is made the board will continue seeking higher offers from other bidders."  (wsj\_0938)
+
+[1] 5
+[1] "INFINITIVE NONE POS VERB NA ASPECTUAL start"
+[1] "NONE NONE POS NOUN NA STATE place"
+"Palace inspections are not expected to start until the new agreement's procedures are in place."  (APW19980306.1001)
+
+
+
+
+Event (V) * Date
+
+
+[1] 1
+[1] "PAST NONE POS VERB NA OCCURRENCE held"
+[1] "DATE PRESENT_REF true NONE now"
+In space, some say female pilots were held up until now by the lack of piloting opportunities for them in the military.  (ABC19980304.1830.1636)
+
+[1] 19
+[1] "PAST PERFECTIVE_PROGRESSIVE POS VERB NA REPORTING telling"
+[1] "DATE PAST_REF true NONE recently"
+Until recently, Kellogg had been telling its sales force and Wall Street that by 1992 it intended to achieve a 50\% share of market, measured in dollar volume.  (wsj\_0610)
+
+
+[1] 12
+[1] "PRESENT NONE POS VERB NA STATE remains"
+[1] "DATE 1989-11-30 true NONE then"
+Until then, Conseco said the stock remains convertible into common stock at the rate of 1.439 shares of common stock for each share of preferred stock, which is equivalent to a conversion price of \$17.50 a common share.  (wsj\_0534)
+
+[1] 13
+[1] "PRESENT NONE NEG VERB NA OCCURRENCE own"
+[1] "TIME 1989-11-06T17 true NONE 5 p.m. est, nov. 6"
+"Dow Jones amp Co. extended its tender offer of \$18 a share, or about \$576 million, for the 33\% of Telerate Inc. that it doesn't already own until 5 p.m. EST, Nov. 6."  (wsj\_0542)
+
+
+
+[1] 20
+[1] "FUTURE NONE POS VERB NA OCCURRENCE carry"
+[1] "DATE 1994-12-31 false NONE dec. 31, 1994"
+"The preferred shares will carry a floating annual dividend equal to 72\% of the 30-day bankers' acceptance rate until Dec. 31, 1994."  (wsj\_0637)
+
+
+
+[1] 10
+[1] "INFINITIVE NONE POS VERB NA OCCURRENCE operate"
+[1] "DATE 1990 false NONE early 1990"
+The Midwest Financial subsidiary banks will continue to operate under their current names until early 1990, when each will adopt the First of America name.  (wsj\_0172)
+
+[1] 11
+[1] "INFINITIVE NONE POS VERB NA OCCURRENCE submit"
+[1] "DATE 1989-11 true NONE mid-november"
+"Merieux, a vaccine and bioresearch firm based in Lyon, France, is controlled 50.1\% by state-owned Rhone Poulenc S.A. The Canadian government previously said Merieux's bid didn't offer enough ``net benefit'' to Canada to be approved, and gave Merieux an until mid-November to submit additional information."  (wsj\_0533)
+
+
+
+[1] 17
+[1] "NONE NONE NEG VERB none ASPECTUAL begin"
+[1] "DATE 1993 false NONE 1993"
+"But the Memphis, Tenn., facility wasn't to begin turning out product until 1993, so the decision may reveal a more pessimistic long-term outlook as well."  (wsj\_0610)
+
+
+
+Event (N) * Date
+
+[1] 9
+[1] "NONE NONE POS NOUN NA OCCURRENCE offer"
+[1] "DATE 1989-11-09T17:00 true NONE 5 p.m. est nov. 9"
+Dow Jones amp Co. said it extended its \$18-a-share offer for Telerate Inc. common stock until 5 p.m. EST Nov. 9.  (wsj\_0152)
+
+[1] 22
+[1] "NONE NONE POS NOUN NA STATE sales"
+[1] "DATE 1989-10 true NONE this month"
+He adds : ``Our fund has had {positive} net sales every month for the last three years -- until this month.'' (wsj\_0768)
+
+
+
+Event (A) * Date
+
+[1] 14
+[1] "NONE NONE NEG ADJECTIVE would STATE profitable"
+[1] "DATE 1994 false NONE 1994 or later"
+"Although he expressed confidence that the proposed new company's cash flow would be sufficient to cover interest payments on the debt, he estimated that the company wouldn't be profitable until 1994 or later."  (wsj\_0584)
+
+
+
+ 

@@ -1,0 +1,419 @@
+
+
+
+But Sinn Fein leader Gerry Adams kept his party out pending meetings with British Prime Minister Tony Blair 10 days ago and President Clinton last week.  (APW19980322.0749)<EVENT eid="d19e49" class="OCCURRENCE" word_form="meetings"> meetings </EVENT> 
+
+<MAKEINSTANCE eventID="d19e49" eiid="d19ei2054" tense="NONE" aspect="NONE" polarity="POS" cardinality="PLURAL" pos="NOUN"/> 
+
+<s> But  <ENAMEX TYPE="PERSON"><ENAMEX TYPE="ORGANIZATION"> Sinn Fein </ENAMEX>  leader Gerry Adams </ENAMEX>   <EVENT eid="d19e46" class="ASPECTUAL" word_form="kept"> kept </EVENT>  his party out pending
+ <EVENT eid="d19e49" class="OCCURRENCE" word_form="meetings"> meetings </EVENT>  with  <ENAMEX TYPE="PERSON"> British Prime Minister Tony Blair </ENAMEX>   <TIMEX3 tid="d19t132" type="DATE" value="1998-03-12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d19t125" word_form="10 days ago"> 10 days ago </TIMEX3>  and
+ <ENAMEX TYPE="PERSON"> President Clinton </ENAMEX>   <TIMEX3 tid="d19t134" type="DATE" value="1998-W12" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d19t125" word_form="last week"> last week </TIMEX3> . </s> 
+
+
+
+Previously the Iraqis have resisted attempts to inspect such quarters.  (APW19980306.1001)<EVENT eid="d17e15" class="I_ACTION" word_form="attempts"> attempts </EVENT> 
+
+<MAKEINSTANCE eventID="d17e15" eiid="d17ei1243" tense="NONE" aspect="NONE" polarity="POS" cardinality="PLURAL" pos="NOUN"/> 
+
+<s><TIMEX3 tid="d17t1191" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d17t137" word_form="previously"> Previously </TIMEX3>  the Iraqis have  <EVENT eid="d17e14" class="I_ACTION" word_form="resisted"> resisted </EVENT>   <EVENT eid="d17e15" class="I_ACTION" word_form="attempts"> attempts </EVENT>  to  <EVENT eid="d17e17" class="OCCURRENCE" word_form="inspect"> inspect </EVENT>  such
+quarters. </s> 
+
+	multiple attempts entails multiple resisting events, each with its own result state of having resisted the attempt.  these result states all overlap the time denoted by "previously"? that is, they all begin in the past, placing all the resisting events in the past as well.
+
+
+
+
+
+
+Securities analysts were even more cautious, having been burned repeatedly on Unisys this year.  (wsj\_0568)<EVENT eid="d114e162" class="OCCURRENCE" word_form="burned">  burned  </EVENT> 
+
+<MAKEINSTANCE eventID="d114e162" eiid="d114ei2902" tense="PASTPART" aspect="PERFECTIVE" polarity="POS" cardinality="plural" pos="VERB"/> 
+
+<s>  Securities analysts were even more   <EVENT eid="d114e1999" class="STATE" word_form="cautious">  cautious  </EVENT>  , having been   <EVENT eid="d114e162" class="OCCURRENCE" word_form="burned">  burned  </EVENT>     <SIGNAL sid="d114s2619" word_form="repeatedly">  repeatedly  </SIGNAL>   on   <ENAMEX TYPE="ORGANIZATION">  Unisys  </ENAMEX>     <TIMEX3 tid="d114t2000" type="DATE" value="1989" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d114t208" word_form="this year">  this year  </TIMEX3>  .  </s> 
+
+
+plural in subject, so multiple burn events, but what about multiple states of cautiousness?
+
+
+
+
+PLURAL
+why not 2? -- plural object with quantifier 
+
+Extremists have bombed two predominantly pro-British Protestant towns and fired mortar shells at a police station since Sinn Fein was expelled from peace talks on Feb. 20 in punishment for two killings blamed on the Irish Republican Army.  (APW19980322.0749)<EVENT eid="d19e24" class="OCCURRENCE" word_form="bombed"> bombed </EVENT> 
+
+<MAKEINSTANCE eventID="d19e24" eiid="d19ei2041" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" cardinality="PLURAL" pos="VERB"/> 
+
+<s> Extremists have  <EVENT eid="d19e24" class="OCCURRENCE" word_form="bombed"> bombed </EVENT>   <CARDINAL> two </CARDINAL>  predominantly pro-British Protestant
+towns and fired mortar shells at a police station  <SIGNAL sid="d19s148" word_form="since"> since </SIGNAL>   <ENAMEX TYPE="ORGANIZATION"> Sinn Fein </ENAMEX> 
+was  <EVENT eid="d19e26" class="OCCURRENCE" word_form="expelled"> expelled </EVENT>  from peace talks  <SIGNAL sid="d19s149" word_form="on"> on </SIGNAL>   <TIMEX3 tid="d19t129" type="DATE" value="1998-02-20" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d19t125" word_form="feb. 20"> Feb. 20 </TIMEX3>  in  <EVENT eid="d19e29" class="OCCURRENCE" word_form="punishment"> punishment </EVENT>  for  <CARDINAL> two </CARDINAL> 
+ <EVENT eid="d19e30" class="OCCURRENCE" word_form="killings"> killings </EVENT>  blamed on the  <ENAMEX TYPE="ORGANIZATION"> Irish Republican Army </ENAMEX> . </s> 
+
+
+
+
+
+
+
+
+
+
+
+
+Doubtful:
+
+	repeatedly
+
+Kuchma has said repeatedly that Ukraine would remain neutral for the foreseeable future.  (APW19980227.0494)
+<EVENT eid="d15e86" class="REPORTING" word_form="said"> said </EVENT> 
+<MAKEINSTANCE eventID="d15e86" eiid="d15ei2353" tense="PRESENT" aspect="NONE" polarity="POS" cardinality="PLURAL" pos="VERB"/> 
+
+
+<s><ENAMEX TYPE="PERSON"> Kuchma </ENAMEX>  has  <EVENT eid="d15e86" class="REPORTING" word_form="said"> said </EVENT>  repeatedly that  <ENAMEX TYPE="LOCATION"> Ukraine </ENAMEX>  would  <EVENT eid="d15e87" class="STATE" word_form="remain"> remain </EVENT>  neutral for
+the foreseeable future. </s> 
+
+
+
+Doubtful:
+
+	often - interative operator, habitual
+
+
+In the past, Russia has often claimed that Ukraine was undermining efforts at closer cooperation within the CIS.  (APW19980227.0494)
+<EVENT eid="d15e92" class="I_ACTION" word_form="claimed"> claimed </EVENT> 
+<MAKEINSTANCE eventID="d15e92" eiid="d15ei2357" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" cardinality="PLURAL" pos="VERB"/> 
+
+
+<s> In  <TIMEX3 tid="d15t149" type="DATE" value="PAST_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d15t142" word_form="the past"> the past </TIMEX3> ,
+ <ENAMEX TYPE="LOCATION"> Russia </ENAMEX>  has often  <EVENT eid="d15e92" class="I_ACTION" word_form="claimed"> claimed </EVENT>  that  <ENAMEX TYPE="LOCATION"> Ukraine </ENAMEX>  was  <EVENT eid="d15e93" class="OCCURRENCE" word_form="undermining"> undermining </EVENT>  efforts at
+closer cooperation within the  <ENAMEX TYPE="ORGANIZATION"> CIS </ENAMEX> . </s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Analysts noted that over the past 20 years, Mr. Fournier has built his company through astute stock-market activity and has warded off at least three takeover attempts.  (wsj\_0810)
+<EVENT eid="d152e69" class="I_ACTION" word_form="attempts"> attempts </EVENT> 
+<MAKEINSTANCE eventID="d152e69" eiid="d152ei2698" tense="NONE" aspect="NONE" polarity="POS" cardinality="at least 3" pos="NOUN"/> 
+
+
+<s> Analysts  <EVENT eid="d152e64" class="REPORTING" word_form="noted"> noted </EVENT>  that  <SIGNAL sid="d152s171" word_form="over"> over </SIGNAL>   <TIMEX3 tid="d152t173" type="DURATION" value="P20Y" temporalFunction="true" functionInDocument="NONE" endPoint="d152t152" word_form="the past 20 years"> the past 20 years </TIMEX3> ,  <ENAMEX TYPE="PERSON"> Mr. Fournier </ENAMEX>  has  <EVENT eid="d152e65" class="OCCURRENCE" word_form="built"> built </EVENT>  his company through astute stock-market  <EVENT eid="d152e66" class="OCCURRENCE" word_form="activity"> activity </EVENT>  and has  <EVENT eid="d152e68" class="I_ACTION" word_form="warded"> warded </EVENT>  off  <CARDINAL> at least three </CARDINAL>   <EVENT eid="d152e174" class="OCCURRENCE" word_form="takeover"> takeover </EVENT>   <EVENT eid="d152e69" class="I_ACTION" word_form="attempts"> attempts </EVENT> . </s> 
+
+	plural event denoting noun with quantifier "at least three", entails at least three warding off events too, no?
+
+
+
+Really, this one is "plural", given only sentence internal information.  Likely discourse level resolution to 2.
+
+
+Taken together, the worries prompted a broad sell-off of stocks.  (wsj\_0816)
+<EVENT eid="d155e107" class="STATE" word_form="worries"> worries </EVENT> 
+<MAKEINSTANCE eventID="d155e107" eiid="d155ei506" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/> 
+
+
+<s> Taken together, the  <EVENT eid="d155e107" class="STATE" word_form="worries"> worries </EVENT>   <EVENT eid="d155e37" class="OCCURRENCE" word_form="prompted"> prompted </EVENT>  a broad  <EVENT eid="d155e109" class="OCCURRENCE" word_form="sell-off"> sell-off </EVENT>  of stocks. </s> 
+
+
+
+
+Plural subject with numerical quantifier
+
+Two rival bidders for Connaught BioSciences extended their offers to acquire the Toronto -based vaccine manufacturer Friday.  (wsj\_0533)
+<EVENT eid="d106e1" class="OCCURRENCE" word_form="extended">   extended   </EVENT> 
+<MAKEINSTANCE eventID="d106e1" eiid="d106ei478" tense="PAST" aspect="NONE" polarity="POS" cardinality="2" pos="VERB"/> 
+
+
+<s><CARDINAL>   Two   </CARDINAL>    rival bidders for    <ENAMEX TYPE="ORGANIZATION">   Connaught BioSciences   </ENAMEX>       <EVENT eid="d106e1" class="OCCURRENCE" word_form="extended">   extended   </EVENT>    their    <EVENT eid="d106e2" class="I_ACTION" word_form="offers">   offers   </EVENT>    to    <EVENT eid="d106e4" class="OCCURRENCE" word_form="acquire">   acquire   </EVENT>    the    <ENAMEX TYPE="ORGANIZATION">   Toronto   </ENAMEX>   -based vaccine manufacturer    <TIMEX3 tid="d106t102" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d106t101" word_form="friday">   Friday   </TIMEX3>   .   </s> 
+
+
+
+plural event denoting object, but cardinality of object resolves to the number of bidders, is this lexical knowledge -- bidding frame? bidder, bid, seller, assett
+
+
+Two rival bidders for Connaught BioSciences extended their offers to acquire the Toronto -based vaccine manufacturer Friday.  (wsj\_0533)
+<EVENT eid="d106e2" class="I_ACTION" word_form="offers">    offers    </EVENT> 
+<MAKEINSTANCE eventID="d106e2" eiid="d106ei479" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/> 
+
+
+<s><CARDINAL>    Two    </CARDINAL>     rival bidders for     <ENAMEX TYPE="ORGANIZATION">    Connaught BioSciences    </ENAMEX>         <EVENT eid="d106e1" class="OCCURRENCE" word_form="extended">    extended    </EVENT>     their     <EVENT eid="d106e2" class="I_ACTION" word_form="offers">    offers    </EVENT>     to     <EVENT eid="d106e4" class="OCCURRENCE" word_form="acquire">    acquire    </EVENT>     the     <ENAMEX TYPE="ORGANIZATION">    Toronto    </ENAMEX>    -based vaccine manufacturer     <TIMEX3 tid="d106t102" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d106t101" word_form="friday">    Friday    </TIMEX3>    .    </s> 
+
+signal = "two"
+
+
+
+Both offers are conditional on regulatory approvals and enough shares being tendered to give the bidders a majority of Connaught's shares outstanding.  (wsj\_0533)
+<EVENT eid="d106e46" class="OCCURRENCE" word_form="offers"> offers </EVENT> 
+<MAKEINSTANCE eventID="d106e46" eiid="d106ei507" tense="NONE" aspect="NONE" polarity="POS" cardinality="2" pos="NOUN"/> 
+
+
+<s> Both  <EVENT eid="d106e46" class="OCCURRENCE" word_form="offers"> offers </EVENT>  are conditional on regulatory approvals and enough shares being tendered to give the bidders a majority of  <ENAMEX TYPE="ORGANIZATION"> Connaught </ENAMEX> 's shares outstanding. </s> 
+
+signal="both"
+
+
+
+
+
+
+
+Interesting:
+
+	annually provides unit of measure, through-phrase agrees in units and provides measure.
+
+
+John C. Marous, chairman and chief executive officer, also said the company expects sales from continuing businesses to rise 8.5\% annually through the next three years.  (wsj\_0973)
+<EVENT eid="d166e12" class="OCCURRENCE" word_form="rise"> rise </EVENT> 
+<MAKEINSTANCE eventID="d166e12" eiid="d166ei1997" tense="INFINITIVE" aspect="NONE" polarity="POS" cardinality="3" pos="VERB"/> 
+
+
+<s><ENAMEX TYPE="PERSON"> John C. Marous, chairman and chief executive officer </ENAMEX> , also  <EVENT eid="d166e6" class="REPORTING" word_form="said"> said </EVENT>  the company  <EVENT eid="d166e7" class="I_STATE" word_form="expects"> expects </EVENT>  sales from continuing businesses to  <EVENT eid="d166e12" class="OCCURRENCE" word_form="rise"> rise </EVENT>   <NUMEX TYPE="PERCENT"> 8.5% </NUMEX>   <COMMENT NOTE="how to annotate that?"> annually </COMMENT>   <SIGNAL sid="d166s120" word_form="through"> through </SIGNAL>   <TIMEX3 tid="d166t121" type="DURATION" value="P3Y" temporalFunction="true" functionInDocument="NONE" beginPoint="d166t118" word_form="the next three years"> the next three years </TIMEX3> . </s> 
+
+
+
+
+
+
+
+Now officials are investigating whether, Rudolph, who remains at large, is linked to all three attacks.  (CNN19980227.2130.0067)
+<EVENT eid="d27e28" class="OCCURRENCE" word_form="attacks"> attacks </EVENT> 
+<MAKEINSTANCE eventID="d27e28" eiid="d27ei2013" tense="NONE" aspect="NONE" polarity="POS" cardinality="3" pos="NOUN"/> 
+
+
+<s><TIMEX3 tid="d27t178" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d27t92" word_form="now"> Now </TIMEX3>  officials are  <EVENT eid="d27e25" class="I_ACTION" word_form="investigating"> investigating </EVENT>  whether,  <ENAMEX TYPE="PERSON"> Rudolph </ENAMEX> , who remains at large, is  <EVENT eid="d27e27" class="STATE" word_form="linked"> linked </EVENT>  to all  <CARDINAL> three </CARDINAL>   <EVENT eid="d27e28" class="OCCURRENCE" word_form="attacks"> attacks </EVENT> . </s> 
+
+
+
+
+4 events of IMA extending offer, "four times"
+
+
+Then, after extending its offer four times waiting for a congressional tax ruling, IMA early this month lowered its offer to \$26.50 a share amid turbulence in the junk bond market.  (wsj\_0786)
+<EVENT eid="d147e53" class="OCCURRENCE" stem="extend" word_form="extending"> extending </EVENT> 
+<MAKEINSTANCE eventID="d147e53" eiid="d147ei425" tense="NONE" aspect="NONE" polarity="POS" cardinality="4" pos="NOUN"/> 
+
+
+<s> Then,  <SIGNAL sid="d147s52" word_form="after"> after </SIGNAL>   <EVENT eid="d147e53" class="OCCURRENCE" stem="extend" word_form="extending"> extending </EVENT>  its offer  <SIGNAL sid="d147s85" word_form="four times"><CARDINAL> four </CARDINAL>  times </SIGNAL>   <EVENT eid="d147e55" class="I_ACTION" stem="wait" word_form="waiting"> waiting </EVENT>  for a congressional tax  <EVENT eid="d147e56" class="OCCURRENCE" stem="rule" word_form="ruling"> ruling </EVENT> ,  <ENAMEX TYPE="ORGANIZATION"> IMA </ENAMEX>   <TIMEX3 tid="d147t99" type="DATE" value="1989-10" mod="START" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d147t92" word_form="early this month"> early this month </TIMEX3>   <EVENT eid="d147e57" class="OCCURRENCE" stem="lower" word_form="lowered"> lowered </EVENT>  its offer to  <NUMEX TYPE="MONEY"> $26.50 </NUMEX>  a share amid turbulence in the junk bond market. </s> 
+
+
+
+
+
+
+
+
+Qantas plans daily flights between Sydney and Bombay, up from the current four flights a week, to boost business and tourism ties with India, the airline announced Friday.  (APW19980213.1320)
+<EVENT eid="d8e33" class="OCCURRENCE" stem="flight" word_form="flights">  flights  </EVENT> 
+<MAKEINSTANCE eventID="d8e33" eiid="d8ei333" tense="NONE" aspect="NONE" polarity="POS" cardinality="4" pos="NOUN"/> 
+
+
+<s>  Qantas   <EVENT eid="d8e8" class="I_ACTION" stem="plan" word_form="plans">  plans  </EVENT>   daily   <EVENT eid="d8e32" class="OCCURRENCE" stem="flight" word_form="flights">  flights  </EVENT>   between   <ENAMEX TYPE="LOCATION">  Sydney  </ENAMEX>   and   <ENAMEX TYPE="LOCATION">  Bombay  </ENAMEX>  , up from
+the   <TIMEX3 tid="d8t46" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d8t41" word_form="current">  current  </TIMEX3>     <CARDINAL>  four  </CARDINAL>     <EVENT eid="d8e33" class="OCCURRENCE" stem="flight" word_form="flights">  flights  </EVENT>   a week,  to   <EVENT eid="d8e9" class="I_ACTION" stem="boost" word_form="boost">  boost  </EVENT>   business and tourism   <EVENT eid="d8e34" class="STATE" stem="tie" word_form="ties">  ties  </EVENT>  
+with   <ENAMEX TYPE="LOCATION">  India  </ENAMEX>  , the airline   <EVENT eid="d8e10" class="REPORTING" stem="announce" word_form="announced">  announced  </EVENT>     <TIMEX3 tid="d8t47" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d8t41" word_form="friday">  Friday  </TIMEX3>  .  </s> 
+
+
+
+
+
+
+daily = 7
+
+Qantas plans daily flights between Sydney and Bombay, up from the current four flights a week, to boost business and tourism ties with India, the airline announced Friday.  (APW19980213.1320)
+<EVENT eid="d8e32" class="OCCURRENCE" stem="flight" word_form="flights"> flights </EVENT> 
+<MAKEINSTANCE eventID="d8e32" eiid="d8ei332" tense="NONE" aspect="NONE" polarity="POS" cardinality="7" pos="NOUN"/> 
+
+
+<s> Qantas  <EVENT eid="d8e8" class="I_ACTION" stem="plan" word_form="plans"> plans </EVENT>  daily  <EVENT eid="d8e32" class="OCCURRENCE" stem="flight" word_form="flights"> flights </EVENT>  between  <ENAMEX TYPE="LOCATION"> Sydney </ENAMEX>  and  <ENAMEX TYPE="LOCATION"> Bombay </ENAMEX> , up from
+the  <TIMEX3 tid="d8t46" type="DATE" value="PRESENT_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d8t41" word_form="current"> current </TIMEX3>   <CARDINAL> four </CARDINAL>   <EVENT eid="d8e33" class="OCCURRENCE" stem="flight" word_form="flights"> flights </EVENT>  a week,  to  <EVENT eid="d8e9" class="I_ACTION" stem="boost" word_form="boost"> boost </EVENT>  business and tourism  <EVENT eid="d8e34" class="STATE" stem="tie" word_form="ties"> ties </EVENT> 
+with  <ENAMEX TYPE="LOCATION"> India </ENAMEX> , the airline  <EVENT eid="d8e10" class="REPORTING" stem="announce" word_form="announced"> announced </EVENT>   <TIMEX3 tid="d8t47" type="DATE" value="1998-02-13" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d8t41" word_form="friday"> Friday </TIMEX3> . </s> 
+
+
+
+conjunction of seven objects
+
+Share prices also closed lower in Sydney, Hong Kong, Singapore, Taipei, Manila, Wellington and Seoul.  (wsj\_0586)
+<EVENT eid="d120e175" class="OCCURRENCE" word_form="closed"> closed </EVENT> 
+<MAKEINSTANCE eventID="d120e175" eiid="d120ei1517" tense="PAST" aspect="NONE" polarity="POS" cardinality="7" pos="VERB"/> 
+
+
+<s> Share prices also  <EVENT eid="d120e175" class="OCCURRENCE" word_form="closed"> closed </EVENT>  lower in  <ENAMEX TYPE="LOCATION"> Sydney </ENAMEX> ,  <ENAMEX TYPE="LOCATION"> Hong Kong </ENAMEX> ,  <ENAMEX TYPE="LOCATION"> Singapore </ENAMEX> ,  <ENAMEX TYPE="LOCATION"> Taipei </ENAMEX> ,  <ENAMEX TYPE="LOCATION"> Manila </ENAMEX> ,  <ENAMEX TYPE="LOCATION"> Wellington </ENAMEX>  and  <ENAMEX TYPE="LOCATION"> Seoul </ENAMEX> . </s> 
+
+
+
+
+
+
+
+
+
+
+
+Eight of the 14 killings since 1993 were already under investigation by the Newark Police Department, Glenn said.  (NYT19980402.0453)
+<EVENT eid="d31e2072" class="OCCURRENCE" word_form="killings"> killings </EVENT> 
+<MAKEINSTANCE eventID="d31e2072" eiid="d31ei2243" tense="NONE" aspect="NONE" polarity="POS" cardinality="8" pos="NOUN"/> 
+
+
+<s><CARDINAL> Eight </CARDINAL>  of the  <CARDINAL> 14 </CARDINAL>   <EVENT eid="d31e2072" class="OCCURRENCE" word_form="killings"> killings </EVENT>  since  <TIMEX3 tid="d31t63" type="DATE" value="1993" temporalFunction="false" functionInDocument="NONE" word_form="1993"> 1993 </TIMEX3>  were already under
+ <EVENT eid="d31e2093" class="STATE" word_form="investigation"> investigation </EVENT>  by the  <ENAMEX TYPE="ORGANIZATION"> Newark Police Department </ENAMEX> ,  <ENAMEX TYPE="PERSON"> Glenn </ENAMEX>   <EVENT eid="d31e22" class="REPORTING" word_form="said"> said </EVENT> . </s> 
+
+
+
+
+
+
+Of the eight victims, three were stabbed, two were strangled, two were beaten to death and one was asphyxiated, he said, and these different methods of killing and other evidence seem to indicate that the eight cases are not related.  (NYT19980402.0453)
+<EVENT eid="d31e2148" class="OCCURRENCE" word_form="cases">  cases  </EVENT> 
+<MAKEINSTANCE eventID="d31e2148" eiid="d31ei2253" tense="NONE" aspect="NONE" polarity="POS" cardinality="8" pos="NOUN"/> 
+
+
+<s>  Of the
+  <CARDINAL>  eight  </CARDINAL>   victims,   <CARDINAL>  three  </CARDINAL>    were   <EVENT eid="d31e23" class="OCCURRENCE" word_form="stabbed">  stabbed  </EVENT>  ,   <CARDINAL>  two  </CARDINAL>    were   <EVENT eid="d31e24" class="OCCURRENCE" word_form="strangled">  strangled  </EVENT>  ,   <CARDINAL>  two  </CARDINAL>    were   <EVENT eid="d31e25" class="I_ACTION" word_form="beaten">  beaten  </EVENT>   to death and one  was   <EVENT eid="d31e26" class="OCCURRENCE" word_form="asphyxiated">  asphyxiated  </EVENT>  , he   <EVENT eid="d31e27" class="REPORTING" word_form="said">  said  </EVENT>  , and these
+different methods of killing and other evidence   <EVENT eid="d31e29" class="PERCEPTION" word_form="seem">  seem  </EVENT>    to   <EVENT eid="d31e30" class="REPORTING" word_form="indicate">  indicate  </EVENT>  
+that the   <CARDINAL>  eight  </CARDINAL>     <EVENT eid="d31e2148" class="OCCURRENCE" word_form="cases">  cases  </EVENT>   are not   <EVENT eid="d31e31" class="STATE" word_form="related">  related  </EVENT>  .  </s> 
+
+
+
+
+
+
+
+Citing an example, Sgt. Derek Glenn, a spokesman for the Newark Police Department, said that of nine women who had been killed last year, suspects had been arrested in only four cases.  (NYT19980402.0453)
+<EVENT eid="d31e15" class="OCCURRENCE" word_form="killed"> killed </EVENT> 
+<MAKEINSTANCE eventID="d31e15" eiid="d31ei2236" tense="PAST" aspect="PERFECTIVE" polarity="POS" cardinality="9" pos="VERB"/> 
+
+
+<s><EVENT eid="d31e2025" class="REPORTING" word_form="citing"> Citing </EVENT>  an example,  <ENAMEX TYPE="PERSON"> Sgt. Derek Glenn, a spokesman for the  <ENAMEX TYPE="ORGANIZATION"> Newark
+Police Department </ENAMEX></ENAMEX> ,  <EVENT eid="d31e14" class="REPORTING" word_form="said"> said </EVENT>  that of  <CARDINAL> nine </CARDINAL>  women who  had  been  <EVENT eid="d31e15" class="OCCURRENCE" word_form="killed"> killed </EVENT>   <TIMEX3 tid="d31t64" type="DATE" value="1997" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d31t43" word_form="last&#10;year"> last
+year </TIMEX3> , suspects  had  been  <EVENT eid="d31e17" class="OCCURRENCE" word_form="arrested"> arrested </EVENT>  in only  <CARDINAL> four </CARDINAL>   <EVENT eid="d31e18" class="OCCURRENCE" word_form="cases"> cases </EVENT> . </s> 
+
+
+
+"in four cases"
+again - lexical knowledge - killing frame, murder frame, investigation frame
+
+
+Citing an example, Sgt. Derek Glenn, a spokesman for the Newark Police Department, said that of nine women who had been killed last year, suspects had been arrested in only four cases.  (NYT19980402.0453)
+<EVENT eid="d31e18" class="OCCURRENCE" word_form="cases">  cases  </EVENT> 
+<MAKEINSTANCE eventID="d31e18" eiid="d31ei2238" tense="NONE" aspect="NONE" polarity="POS" cardinality="4" pos="NOUN"/> 
+
+
+<s><EVENT eid="d31e2025" class="REPORTING" word_form="citing">  Citing  </EVENT>   an example,   <ENAMEX TYPE="PERSON">  Sgt. Derek Glenn, a spokesman for the   <ENAMEX TYPE="ORGANIZATION">  Newark
+Police Department  </ENAMEX></ENAMEX>  ,   <EVENT eid="d31e14" class="REPORTING" word_form="said">  said  </EVENT>   that of   <CARDINAL>  nine  </CARDINAL>   women who  had  been   <EVENT eid="d31e15" class="OCCURRENCE" word_form="killed">  killed  </EVENT>     <TIMEX3 tid="d31t64" type="DATE" value="1997" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d31t43" word_form="last&#10;year">  last
+year  </TIMEX3>  , suspects  had  been   <EVENT eid="d31e17" class="OCCURRENCE" word_form="arrested">  arrested  </EVENT>   in only   <CARDINAL>  four  </CARDINAL>     <EVENT eid="d31e18" class="OCCURRENCE" word_form="cases">  cases  </EVENT>  .  </s> 
+
+
+
+
+
+
+
+
+
+Thirty-two of the 159 U.N. members had filed compliance reports by Wednesday, and all were honoring the sanctions Iraq.  (AP900816-0139)
+<EVENT eid="d6e175" class="OCCURRENCE" word_form="filed"> filed </EVENT> 
+<MAKEINSTANCE eventID="d6e175" eiid="d6ei1711" tense="PAST" aspect="PERFECTIVE" polarity="POS" cardinality="32" pos="VERB"/> 
+
+
+<s><CARDINAL> Thirty-two </CARDINAL>  of the  <CARDINAL> 159 </CARDINAL>   <ENAMEX TYPE="ORGANIZATION"> U.N. </ENAMEX>  members  had  <EVENT eid="d6e175" class="OCCURRENCE" word_form="filed"> filed </EVENT>  compliance reports
+ <SIGNAL sid="d6s355" word_form="by"> by </SIGNAL>   <TIMEX3 tid="d6t301" type="DATE" value="1990-08-15" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d6t287" word_form="wednesday"> Wednesday </TIMEX3> , and all  were  <EVENT eid="d6e274" class="I_ACTION" word_form="honoring"> honoring </EVENT>  the  <EVENT eid="d6e275" class="OCCURRENCE" word_form="sanctions"> sanctions </EVENT>   <ENAMEX TYPE="LOCATION"> Iraq </ENAMEX> . </s> 
+
+
+
+
+
+
+
+But they still have catching up to do two hundred and thirty four Americans have flown in space, only twenty six of them women.  (ABC19980304.1830.1636)
+<EVENT eid="d4e30" class="OCCURRENCE" word_form="flown">  flown  </EVENT> 
+<MAKEINSTANCE eventID="d4e30" eiid="d4ei286" tense="PRESENT" aspect="PERFECTIVE" polarity="POS" cardinality="234" pos="VERB"/> 
+
+
+<s>  But they still have   <EVENT eid="d4e28" class="I_ACTION" word_form="catching">  catching  </EVENT>   up to do   <CARDINAL>  two hundred  </CARDINAL>   and   <CARDINAL>  thirty four  </CARDINAL>   Americans  have   <EVENT eid="d4e30" class="OCCURRENCE" word_form="flown">  flown  </EVENT>   in space, only   <CARDINAL>  twenty six  </CARDINAL>   of them women.  </s> 
+
+
+
+
+
+
+Mistake?:
+
+Thirty-two of the 159 U.N. members had filed compliance reports by Wednesday, and all were honoring the sanctions Iraq.  (AP900816-0139)
+<EVENT eid="d6e274" class="I_ACTION" word_form="honoring">  honoring  </EVENT> 
+<MAKEINSTANCE eventID="d6e274" eiid="d6ei1712" tense="PAST" aspect="PROGRESSIVE" polarity="POS" cardinality="159" pos="VERB"/> 
+
+
+<s><CARDINAL>  Thirty-two  </CARDINAL>   of the   <CARDINAL>  159  </CARDINAL>     <ENAMEX TYPE="ORGANIZATION">  U.N.  </ENAMEX>   members  had   <EVENT eid="d6e175" class="OCCURRENCE" word_form="filed">  filed  </EVENT>   compliance reports
+  <SIGNAL sid="d6s355" word_form="by">  by  </SIGNAL>     <TIMEX3 tid="d6t301" type="DATE" value="1990-08-15" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d6t287" word_form="wednesday">  Wednesday  </TIMEX3>  , and all  were   <EVENT eid="d6e274" class="I_ACTION" word_form="honoring">  honoring  </EVENT>   the   <EVENT eid="d6e275" class="OCCURRENCE" word_form="sanctions">  sanctions  </EVENT>     <ENAMEX TYPE="LOCATION">  Iraq  </ENAMEX>  .  </s> 
+
+
+
+
+over 50,000
+
+Uh, there are over fifty thousand CDs a year sold with uh lyrics that are quite uh unbelievable.  (VOA19980303.1600.2745)
+<EVENT eid="d43e61" class="OCCURRENCE" word_form="sold"> sold </EVENT> 
+<MAKEINSTANCE eventID="d43e61" eiid="d43ei50035" tense="PAST" aspect="NONE" polarity="POS" cardinality="50000" pos="VERB"/> 
+
+
+<s> Uh, there are over  <CARDINAL> fifty thousand </CARDINAL>  CDs  <TIMEX3 tid="d43t120" type="SET" value="P1Y" temporalFunction="false" functionInDocument="NONE" word_form="a year"> a year </TIMEX3> 
+  <EVENT eid="d43e61" class="OCCURRENCE" word_form="sold"> sold </EVENT>  with uh lyrics that are quite uh unbelievable. </s> 
+
+
+
+
+
+
+Each right entitles the shareholder to buy \$100 face amount of 13.5\% bonds due 1993 and warrants to buy 23.5 common shares at 30 cents a share.  (wsj\_0073)
+<EVENT eid="d57e2000" class="I_STATE" word_form="right"> right </EVENT> 
+<MAKEINSTANCE eventID="d57e2000" eiid="d57ei2161" tense="NONE" aspect="NONE" polarity="POS" cardinality="EVERY" pos="NOUN"/> 
+
+
+<s> Each  <EVENT eid="d57e2000" class="I_STATE" word_form="right"> right </EVENT>   <EVENT eid="d57e7" class="I_STATE" word_form="entitles"> entitles </EVENT>  the shareholder  to  <EVENT eid="d57e8" class="OCCURRENCE" word_form="buy"> buy </EVENT>   <NUMEX TYPE="MONEY"> $100 </NUMEX>  face amount of  <NUMEX TYPE="PERCENT"> 13.5% </NUMEX>  bonds due  <TIMEX3 tid="d57t24" type="DATE" value="1993" temporalFunction="false" functionInDocument="NONE" word_form="1993"> 1993 </TIMEX3>  and  <EVENT eid="d57e1998" class="I_ACTION" word_form="warrants"> warrants </EVENT>   to  <EVENT eid="d57e9" class="OCCURRENCE" word_form="buy"> buy </EVENT>   <CARDINAL> 23.5 </CARDINAL>  common shares at  <NUMEX TYPE="MONEY"> 30 cents </NUMEX>  a share. </s> 
+
+
+
+"all flights" object quantification
+
+The airline has also cut all flights to South Korea.  (APW19980213.1320)
+<EVENT eid="d8e31" class="OCCURRENCE" stem="flight" word_form="flights"> flights </EVENT> 
+<MAKEINSTANCE eventID="d8e31" eiid="d8ei330" tense="NONE" aspect="NONE" polarity="POS" cardinality="EVERY" pos="NOUN"/> 
+
+
+<s> The airline  has  also  <EVENT eid="d8e7" class="ASPECTUAL" stem="cut" word_form="cut"> cut </EVENT>  all  <EVENT eid="d8e31" class="OCCURRENCE" stem="flight" word_form="flights"> flights </EVENT>  to  <ENAMEX TYPE="LOCATION"> South Korea </ENAMEX> . </s> 
+
+
+
+
+"every quarter" - scopes over projection
+
+
+That means Unisys must pay about \$100 million in interest every quarter, on top of \$27 million in dividends on preferred stock.  (wsj\_0568)
+<EVENT eid="d114e110" class="OCCURRENCE" word_form="pay"> pay </EVENT> 
+<MAKEINSTANCE eventID="d114e110" eiid="d114ei2877" tense="NONE" aspect="NONE" polarity="POS" cardinality="every" pos="VERB" modality="must"/> 
+
+
+<s> That means  <ENAMEX TYPE="ORGANIZATION"> Unisys </ENAMEX>  must  <EVENT eid="d114e110" class="OCCURRENCE" word_form="pay"> pay </EVENT>  about  <NUMEX TYPE="MONEY"> $100 million </NUMEX>  in interest  <TIMEX3 tid="d114t256" type="SET" value="P1Q" temporalFunction="false" functionInDocument="NONE" quant="every" word_form="every quarter"> every quarter </TIMEX3> , on top of  <NUMEX TYPE="MONEY"> $27 million </NUMEX>  in dividends on preferred stock. </s> 
+
+
+participle modifier of quantified noun
+
+
+
+Dresdner Bank said it will also buy all shares tendered by shareholders on the Paris Stock Exchange at the same price from today through Nov. 17.  (wsj\_0713)
+<EVENT eid="d137e14" class="OCCURRENCE" stem="tender" word_form="tendered"> tendered </EVENT> 
+<MAKEINSTANCE eventID="d137e14" eiid="d137ei130" tense="PASTPART" aspect="NONE" polarity="POS" cardinality="every" pos="VERB"/> 
+
+
+<s><ENAMEX TYPE="ORGANIZATION"> Dresdner Bank </ENAMEX><EVENT eid="d137e12" class="REPORTING" stem="say" word_form="said"> said </EVENT>  it will also  <EVENT eid="d137e13" class="OCCURRENCE" stem="buy" word_form="buy"> buy </EVENT>  all shares  <EVENT eid="d137e14" class="OCCURRENCE" stem="tender" word_form="tendered"> tendered </EVENT>  by shareholders on the  <ENAMEX TYPE="ORGANIZATION"> Paris Stock Exchange </ENAMEX>  at the same price  <SIGNAL sid="d137s23" word_form="from"> from </SIGNAL>   <TIMEX3 tid="d137t27" type="DATE" value="1989-10-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d137t26" word_form="today"> today </TIMEX3>   <SIGNAL sid="d137s24" word_form="through"> through </SIGNAL>   <TIMEX3 tid="d137t28" type="DATE" value="1989-11-17" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d137t26" word_form="nov. 17"> Nov. 17 </TIMEX3> . </s> 
+

@@ -1,0 +1,23 @@
+> instanceEventData[instanceEventData$pos=="OTHER" & instanceEventData$class=="ASPECTUAL",]$eventID
+[1] d40e26
+7935 Levels: d1e20 d1e53 d1e1 d1e37 d1e147 d1e67 d1e16 d1e14 d1e60 ... d183e30
+> EIDtoEVENT("d40e26",docs)
+<EVENT eid="d40e26" class="ASPECTUAL" word_form="over">over</EVENT> 
+> ToSentence(EIDtoEVENT("d40e26",docs))
+<s><SIGNAL sid="d40s29" word_form="by">By</SIGNAL><TIMEX3 tid="d40t18" type="TIME" value="1998-03-06TAF" mod="MID" temporalFunction="true" functionInDocument="NONE" anchorTimeID="d40t17" word_form="mid afternoon">mid afternoon</TIMEX3>,
+ official Serb sources  were <EVENT eid="d40e10" class="REPORTING" word_form="saying">saying</EVENT> the <EVENT eid="d40e30" class="OCCURRENCE" word_form="operation">operation</EVENT> was <EVENT eid="d40e26" class="ASPECTUAL" word_form="over">over</EVENT>, but
+ that has not  yet been <EVENT eid="d40e11" class="REPORTING" word_form="confirmed">confirmed</EVENT> from <ENAMEX TYPE="LOCATION">Belgrade</ENAMEX>, the capital of <ENAMEX TYPE="LOCATION">Serbia</ENAMEX>,
+ which is where the whole <EVENT eid="d40e27" class="OCCURRENCE" word_form="attack">attack</EVENT>  is <EVENT eid="d40e13" class="I_STATE" word_form="thought">thought</EVENT>  to  have been <EVENT eid="d40e14" class="I_STATE" word_form="planned">planned</EVENT>.</s> 
+> printSentenceCite(ToSentence(EIDtoEVENT("d40e26",docs)))
+[1] "Bymid afternoon, official Serb sources were saying the operation was over, but that has not yet been confirmed from Belgrade, the capital of Serbia, which is where the whole attack is thought to have been planned. ~/Dropbox/cope.dissertation/timebank_1_2/data/extra/PRI19980306.2000.1675.tml"
+
+
+> instanceEventData[instanceEventData$pos=="OTHER" & instanceEventData$class=="I_ACTION",]$eventID
+[1] d34e1980
+7935 Levels: d1e20 d1e53 d1e1 d1e37 d1e147 d1e67 d1e16 d1e14 d1e60 ... d183e30
+> EIDtoEVENT("d34e1980",docs)
+<EVENT eid="d34e1980" class="I_ACTION" word_form="off">off</EVENT> 
+> ToSentence(EIDtoEVENT("d34e1980",docs))
+<s>We're <EVENT eid="d34e1980" class="I_ACTION" word_form="off">off</EVENT> in <EVENT eid="d34e2" class="OCCURRENCE" word_form="search">search</EVENT> of an ancient and exotic city.</s> 
+> printSentenceCite(ToSentence(EIDtoEVENT("d34e1980",docs)))
+[1] "We're off in search of an ancient and exotic city. ~/Dropbox/cope.dissertation/timebank_1_2/data/extra/PRI19980121.2000.2591.tml"
