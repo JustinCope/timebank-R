@@ -4,7 +4,7 @@
 # requires an index file, with the name of one file to be loaded per line
 # might be replaced -- R functions for reading the contents of path directory
 # path is a variable defined in preprocess.R -- the path must contain index_file and all of the documents listed in index_file
-getIndex = function(index_file){
+getIndex = function(path,index_file){
 	index_file = paste(path,index_file,sep="")
 	strsplit(readLines(index_file, warn=FALSE), " ")[[1]]
 }
