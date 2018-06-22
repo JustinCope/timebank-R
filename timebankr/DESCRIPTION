@@ -1,0 +1,10 @@
+Package: timebankr
+Title: Functions and Scripts for Exploring Timebank 1.2
+Version: 0.0.0.9000
+Authors@R: person("Justin", "Cope", email = "justin.cope@utexas.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.3.2)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: XML
