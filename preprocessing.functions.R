@@ -15,7 +15,7 @@ getDocument = function(file){ # Input: file name
 } # useInternal maintains the xml document, for use with XPATH searches
 
 # Gets the documents, makes them xml
-getDocuments = function(index){ # Input: index of file names
+getDocuments = function(path,index){ # Input: index of file names
 	n = length(index) # Number of file names in the index
 	x = vector("list",n) # Creates a vector of type 'list' (could have been 'logical' or ...), length n
 	if(n>0){ # Checks whether vector length is greater than 0, if so:

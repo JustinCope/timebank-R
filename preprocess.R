@@ -6,7 +6,7 @@ source('preprocessing.functions.R') # Functions: getting Documents, Unique IDs, 
 # cat("\n", file="index.txt", sep="", append=TRUE)
 path = "~/Dropbox/cope.dissertation/timebank_1_2/data/extra/"
 index = getIndex(path,"index.txt") # Gets the list of file names from working directory
-documents = getDocuments(index) # Processes each file, creates list of xml objects
+documents = getDocuments(path,index) # Processes each file, creates list of xml objects
 
 makeAllDocsUnique(documents) # Run UniqueXID over all ID categories of all documents
 
