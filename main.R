@@ -56,8 +56,8 @@ timeVector = matrix(dimnames=list("","timeID")) # to make before data frame comp
 
 beforeLinks = getLinkSubset(tlinkWithSignals, "before")
 beforeData = makeDataFrame(beforeLinks)
-beforeData = cbind.fill(beforeData,timeVector)
-beforeData = as.data.frame(beforeData)
+# beforeData = cbind.fill(beforeData,timeVector)
+# beforeData = as.data.frame(beforeData)
 beforeData = merge(beforeData,instanceEventData,by.x="eventInstanceID",by.y="eiid",all.x=TRUE,suffixes = c(".e_host",".e_comp"))
 beforeData = merge(beforeData,instanceEventData,by.x="relatedToEventInstance",by.y="eiid",all.x=TRUE,suffixes = c(".e_host",".e_comp"))
 beforeData = merge(beforeData,timeData,by.x="relatedToTime",by.y="tid",all.x=TRUE,suffixes = c(".t_host",".t_comp"))
