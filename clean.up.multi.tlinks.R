@@ -67,8 +67,8 @@
 
 # Remove 2 TLINKS, because they duplicate "after" signals -- not quite measure phrase, duration as complement
 	# agreed to pay if, after five years, the value isn't as high as...
-	removeNodes(getNodeSet(docs,"//TLINK[@lid='d118l62']"))
 	removeNodes(getNodeSet(docs,"//TLINK[@lid='d118l93']"))
+	removeNodes(getNodeSet(docs,"//TLINK[@lid='d118l94']"))
 
 
 

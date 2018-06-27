@@ -39,7 +39,7 @@ hostCompPOS <- function(signalData){
 	time_event 	<- subset(signalData,!is.na(timeID) & !is.na(relatedToEventInstance))
 	time_time 	<- subset(signalData,!is.na(timeID) & !is.na(relatedToTime))
 	print(xtabs(~ pos.e_host + pos.e_comp, data=event_event))
-	print(xtabs(~ pos.e_host + type, data=event_time))
-	print(xtabs(~ type + pos.e_comp, data=time_event))
-	print(xtabs(~ type + type, data=time_time))
+	print(xtabs(~ pos.e_host + type.t_comp, data=event_time))
+	print(xtabs(~ type.t_host + pos.e_comp, data=time_event))
+	print(xtabs(~ type.t_host + type.t_comp, data=time_time))
 }

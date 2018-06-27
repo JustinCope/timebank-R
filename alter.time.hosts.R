@@ -25,3 +25,22 @@ xmlAttrs(link) <- c(lid="d118l33", relType="ENDED_BY", eventInstanceID="d118ei26
 link = LIDtoLink("d119l57",docs)
 removeAttributes(link)
 xmlAttrs(link) <- c(lid="d119l57", relType="BEFORE", timeID="d119t338", relatedToEventInstance="d119ei2072", signalID="d119s206")
+
+
+# "To mollify shareholders concerned about the long-term value of the company under the BellSouth-LIN agreement, BellSouth also agreed to pay as much as \$10 a share, or \$540 million, if, after five years, the trading value of the new cellular company isn't as high as the value that shareholders would have realized from the McCaw offer.  (wsj\_0584)"
+# signal: after
+# host:
+# comp: five years
+link = LIDtoLink("d118l62",docs)
+removeAttributes(link)
+xmlAttrs(link) <- c(lid="d118l62", relType="AFTER", eventInstanceID="d118ei2659", relatedToTime="d118t326", signalID="d118s325")
+
+
+
+# "After a short, sharp drop when Asia's financial problems first became clear, the stock market has rebounded and corporate profits have remained healthy."  (NYT19980206.0460)
+specialLink = LIDtoLink("d28l23",docs)
+removeAttributes(specialLink)
+xmlAttrs(specialLink) <- c(lid="d28l23")
+#xmlAttrs(specialLink) <- c(lid="d28l23", relType="AFTER", eventInstanceID="d28ei2242", relatedToEventInstance="d28ei2240", signalID="d28s252")
+
+

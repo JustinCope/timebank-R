@@ -60,6 +60,7 @@ beforeData = makeDataFrame(beforeLinks)
 # beforeData = as.data.frame(beforeData)
 beforeData = merge(beforeData,instanceEventData,by.x="eventInstanceID",by.y="eiid",all.x=TRUE,suffixes = c(".e_host",".e_comp"))
 beforeData = merge(beforeData,instanceEventData,by.x="relatedToEventInstance",by.y="eiid",all.x=TRUE,suffixes = c(".e_host",".e_comp"))
+beforeData = merge(beforeData,timeData,by.x="timeID",by.y="tid",all.x=TRUE,suffixes = c(".t_host",".t_comp"))
 beforeData = merge(beforeData,timeData,by.x="relatedToTime",by.y="tid",all.x=TRUE,suffixes = c(".t_host",".t_comp"))
 
 
@@ -67,6 +68,7 @@ afterLinks = getLinkSubset(tlinkWithSignals, "after")
 afterData = makeDataFrame(afterLinks)
 afterData = merge(afterData,instanceEventData,by.x="eventInstanceID",by.y="eiid",all.x=TRUE,suffixes = c(".e_host",".e_comp")) 
 afterData = merge(afterData,instanceEventData,by.x="relatedToEventInstance",by.y="eiid",all.x=TRUE,suffixes = c(".e_host",".e_comp"))
+afterData = cbind.fill(afterData,timeVector)
 afterData = merge(afterData,timeData,by.x="timeID",by.y="tid",all.x=TRUE,suffixes = c(".t_host",".t_comp"))
 afterData = merge(afterData,timeData,by.x="relatedToTime",by.y="tid",all.x=TRUE,suffixes = c(".t_host",".t_comp"))
 
