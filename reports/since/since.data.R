@@ -1,2 +1,0 @@
-
-sinceIDs = extractIDfromAll(sinceLinks,"signalID")

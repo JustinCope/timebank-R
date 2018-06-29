@@ -1,7 +1,0 @@
-Searching 191 files for "STATE">against<" (regex)
-
-/Users/jlc/Dropbox/cope.dissertation/timebank_1_2/data/extra/wsj_0585.tml:
-
-   39: <s>But the big, often tumultuous <EVENT eid="e57" class="OCCURRENCE">slide</EVENT> in stock prices <TIMEX3 tid="t303" type="DATE" value="1989-10" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t294">this month</TIMEX3> has <EVENT eid="e58" class="I_STATE">turned</EVENT> some of those who have been <EVENT eid="e59" class="OCCURRENCE">profiting</EVENT> from the practice <EVENT eid="e304" class="STATE">against</EVENT> it.</s> 
- 
- <MAKEINSTANCE eventID="e304" eiid="ei2018" tense="NONE" aspect="NONE" polarity="POS" pos="PREPOSITION"/>
